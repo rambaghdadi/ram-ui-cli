@@ -1,0 +1,20 @@
+{
+  "name": "ram-ui-cli",
+  "version": "1.0.0",
+  "description": "CLI to generate ram-ui component files",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ram-ui": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1"
+  }
+}
